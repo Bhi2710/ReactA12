@@ -7,7 +7,7 @@ const Navbar = () =>{
 
   const isLight = useSelector((state)=>state.isLight);
 
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
 
   return(
     <div>
